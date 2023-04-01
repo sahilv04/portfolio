@@ -2,9 +2,11 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Link from 'next/link'
 import styles from './Navigator.module.css'
+import { Fade } from 'react-awesome-reveal';
 
 const Navigator = () => {
     return(
+        <Fade direction='down' triggerOnce>
         <Navbar className={`container ${styles.navigatorMain}`} sticky='top'>
             <Container>
                 <Link className={`navbar-brand pt-4 ${styles.brandText}`} href="/">
@@ -19,6 +21,7 @@ const Navigator = () => {
                 <Link className='navbar-brand' href="/contact-me">Contact me</Link>
             </Container>
         </Navbar>
+        </Fade>
     )
 }
 
