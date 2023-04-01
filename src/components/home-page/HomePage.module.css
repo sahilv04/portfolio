@@ -1,0 +1,14 @@
+.greetingLeftContainer{
+    padding-top: 100px
+}
+
+.greetingLeftContainer .title{
+    font-size: 65px;
+}
+
+.greetingLeftContainer .subTitle{
+    line-height: 40px;
+    font-size: 30px;
+    margin-right: 40px;
+}
+
