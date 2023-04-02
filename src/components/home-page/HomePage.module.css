@@ -4,6 +4,7 @@
 
 .greetingLeftContainer .title{
     font-size: 65px;
+    color: var(--primary-text-color);
 }
 
 .greetingLeftContainer .subTitle{
@@ -14,7 +15,7 @@
 
 .greetingLeftContainer .socialIconsContainer .socialIconItem{
     border-radius: 51%;
-    background-color: #111111;
+    background-color: var(--primary-text-color);
     color: #fff;
     height: 35px;
     width: 35px;
@@ -44,4 +45,17 @@
 
 .greetingLeftContainer .socialIconsContainer .socialInstagramIcon:hover {
     background-color: rgb(228, 64, 95);
+}
+
+.technologyIcon{
+    font-size: 54px;
+}
+
+.technologyIcon .techSvgIcon{
+    display: inline-flex;
+    vertical-align: -7px;
+}
+
+.technologyIcon .techSvgIcon svg{
+    height: 52px;
 }

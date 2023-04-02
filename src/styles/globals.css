@@ -4,3 +4,11 @@ html body{
   font-family: 'Roboto', sans-serif;
   background-color: #EFF9FE;
 }
+
+:root {
+  --primary-text-color: rgb(0, 28, 85);
+}
+
+.primary-text-color{
+  color: var(--primary-text-color) !important;
+}
