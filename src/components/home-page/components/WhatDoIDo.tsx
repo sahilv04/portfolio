@@ -4,9 +4,11 @@ import MongoDbIcon from "@/components/svg/MongoDbIcon";
 import TypescriptIcon from "@/components/svg/TypescriptIcon";
 import PostgreIcon from "@/components/svg/PostgreIcon";
 import TechComponent from "./TechComponent";
+import { Fade } from "react-awesome-reveal";
 
 const WhatDoIDoComponent = () => {
     return(
+        <Fade direction="up" triggerOnce>
         <div className={`row mt-5 ${styles.whatDoIDoContainer}`}>
             <h1 className="text-center primary-text-color">What do I do?</h1>
             <div className="col-md-6"><WhatDoIDoSvg /></div>
@@ -34,6 +36,7 @@ const WhatDoIDoComponent = () => {
                 </div>
             </div>
         </div>
+            </Fade>
     )
 }
 

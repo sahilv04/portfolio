@@ -5,9 +5,11 @@ import TypescriptIcon from "@/components/svg/TypescriptIcon";
 import PostgreIcon from "@/components/svg/PostgreIcon";
 import TechComponent from "./TechComponent";
 import CloudInfraSvg from "@/components/svg/CloudInfraSvg";
+import { Fade } from "react-awesome-reveal";
 
 const CloudInfraComponent = () => {
     return(
+        <Fade direction="up" triggerOnce>
         <div className={`row`}>
             <h1 className="text-center primary-text-color">Cloud Infrastructure</h1>
             <div className="col-md-6"><CloudInfraSvg /></div>
@@ -25,6 +27,7 @@ const CloudInfraComponent = () => {
                 </div>
             </div>
         </div>
+        </Fade>
     )
 }
 
